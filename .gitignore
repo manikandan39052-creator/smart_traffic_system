@@ -1,0 +1,21 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+# Generated runtime data
+logs/
+evidence/
+traffic.db
+.pip-report.json
+
+# Downloaded model weights (retrieve as documented in README)
+models/*.pt
+models/*.onnx
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,15 @@
+{
+  "app_name": "AI-Based Smart Traffic Violation Detection and Enforcement System",
+  "model_path": "models/yolo11n.pt",
+  "confidence_threshold": 0.4,
+  "inference_size": 640,
+  "frame_skip": 1,
+  "detection_fps": 10,
+  "no_parking_grace_seconds": 10,
+  "post_alarm_grace_seconds": 5,
+  "alarm_enabled": true,
+  "evidence_seconds_before": 5,
+  "evidence_seconds_after": 5,
+  "signal_mode": "manual",
+  "signal_state": "RED"
+}
